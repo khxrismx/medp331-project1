@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100vw;
+}
+
+body{
+    /*background: #fdf0d5;*/
+    transition: background-color 0.1s ease;
+    font-family: 'Bona Nova', serif;
+    background-image: url('https://i.pinimg.com/1200x/cd/60/1b/cd601b5bde91f0872de32a548814e154.jpg');
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 5rem;
+    color: #780000;
+}
+
+p{
+    font-size: 2rem;
+    color:#780000;
+    max-width: 400px;
+}
+img{
+    margin: auto;
+}
+
+#title{
+    color: black;
+}
+
+.between-left{
+    max-height: 10%;
+    position: absolute;
+    transform: translate(-20%, -380%);
+}
+
+.between-right{
+    max-height: 10%;
+    position: absolute;
+    transform: translate(20%, -380%);
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 10%;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    /*background: #fdf0d5; */
+    overflow-x: hidden;
+    margin: 4% 0;
+}
+
+section .animate{
+    transition: 1s;
+}
+
+.sec-3 h1{
+    color:#fdf0d5;
+}
+.sec-3 p{
+    color:#fdf0d5;
+}
+
+.sec-1 .animate{
+    transform: translateX(-100%);
+}
+.sec-1.show-animate .animate{
+    transform: translateX(0);
+}
+
+.sec-2 .animate{
+    transform: scale(.5);
+}
+.sec-2.show-animate .animate{
+    transform: scale(1);
+}
+
+.sec-3 .animate{
+    transform: scale(.5);
+}
+.sec-3.show-animate .animate{
+    transform: scale(1);
+}
+
+.sec-4 .animate{
+    transform: scale(.7);
+}
+.sec-4.show-animate .animate{
+    transform: scale(1);
+}
+
+.sec-5 .animate{
+    transform: scale(.7);
+}
+.sec-5.show-animate .animate{
+    transform: scale(1);
+}
+
+.sec-6 .animate{
+    transform: scale(.7);
+}
+.sec-6.show-animate .animate{
+    transform: scale(1);
+}
+
+.sec-7 .animate{
+    transform: scale(.7);
+}
+.sec-7.show-animate .animate{
+    transform: scale(1);
+}
+
+/* colors */
+.color-beige{
+    background: #fdf0d5;
+}
+
+.color-brown{
+    background: #a52a2a;
+}
+
+.color-yellow{
+    background: #f1f1b7;
+}
+
+.color-orange{
+    background: #ffa500;
+}
+
+.color-pink{
+    background: #edafb8;
+}
+
+.color-blue{
+    background: #9dc2d0;
+}
+
+
+
