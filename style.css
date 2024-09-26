@@ -9,7 +9,6 @@
 }
 
 body{
-    /*background: #fdf0d5;*/
     transition: background-color 0.1s ease;
     font-family: 'Bona Nova', serif;
     background-image: url('https://i.pinimg.com/1200x/cd/60/1b/cd601b5bde91f0872de32a548814e154.jpg');
@@ -17,17 +16,24 @@ body{
 }
 
 h1{
-    font-size: 5rem;
+    font-size: 4vw;
     color: #780000;
 }
 
 p{
-    font-size: 2rem;
+    font-size: 2vw;
     color:#780000;
-    max-width: 400px;
+    max-width: 50%;
+    min-width: 40%;
 }
+
+
 img{
     margin: auto;
+    max-width: 400px;
+}
+.title{
+    max-width: 800px;
 }
 
 #title{
@@ -35,15 +41,13 @@ img{
 }
 
 .between-left{
-    max-height: 10%;
     position: absolute;
-    transform: translate(-20%, -380%);
+    transform: translate(100%, -80%);
 }
 
 .between-right{
-    max-height: 10%;
     position: absolute;
-    transform: translate(20%, -380%);
+    transform: translate(340%, -80%);
 }
 
 .content{
@@ -51,7 +55,9 @@ img{
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
     padding: 0 10%;
+    max-width: 75%;
 }
 
 .images{
@@ -61,6 +67,12 @@ img{
     flex-direction: row;
     flex-wrap: wrap;
     margin: 2%;
+    max-width: 600px;
+}
+
+.img{
+    width: 500%;
+    height: auto;
 }
 
 section {
@@ -69,7 +81,6 @@ section {
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    /*background: #fdf0d5; */
     overflow-x: hidden;
     margin: 4% 0;
 }
@@ -158,6 +169,3 @@ section .animate{
 .color-blue{
     background: #9dc2d0;
 }
-
-
-

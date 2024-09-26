@@ -53,19 +53,3 @@ $(window).scroll(function() {
         repeat: -1,
     })
   });
-/*
-  const lice = document.getElementById('lice');
-  lice.addEventListener('click', () => {
-      const spacingAudio = document.getElementById('spacing');
-      
-      spacingAudio.play().catch((error) => {
-          console.error("Playback failed:", error);
-      });
-  });
-  
-  // Add error listener
-  spacing.addEventListener('error', (e) => {
-      console.error("Error playing audio:", e);
-  });
-  
-  */
