@@ -75,6 +75,46 @@ img{
     height: auto;
 }
 
+#lice{
+    transition: transform .2;
+}
+
+#lice:hover{
+    transform: scale(1.2);
+}
+
+#patched-up{
+    transition: transform .2;
+}
+
+#patched-up:hover{
+    transform: scale(1.2);
+}
+
+#loveworm{
+    transition: transform .2;
+}
+
+#loveworm:hover{
+    transform: scale(1.2);
+}
+
+#space-cadet{
+    transition: transform .2;
+}
+
+#space-cadet:hover{
+    transform: scale(1.2);
+}
+
+#extended-play{
+    transition: transform .2;
+}
+
+#extended-play:hover{
+    transform: scale(1.2);
+}
+
 section {
     display: flex;
     justify-content: center;

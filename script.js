@@ -53,3 +53,64 @@ $(window).scroll(function() {
         repeat: -1,
     })
   });
+
+  //audio
+  const spacing = document.getElementById('spacing');
+  const lice = document.getElementById('lice');
+
+  lice.addEventListener('mouseenter', () =>{
+    spacing.play();
+  });
+
+  lice.addEventListener('mouseleave', () =>{
+    console.log('mouse left');
+    spacing.pause();
+  });
+
+  const dance = document.getElementById('dance');
+  const patched = document.getElementById('patched-up');
+
+  patched.addEventListener('mouseenter', () =>{
+    dance.play();
+  });
+
+  patched.addEventListener('mouseleave', () =>{
+    console.log('mouse left');
+    dance.pause();
+  });
+
+  const soren = document.getElementById('soren');
+  const loveworm = document.getElementById('loveworm');
+
+  loveworm.addEventListener('mouseenter', () =>{
+    soren.play();
+  });
+
+  loveworm.addEventListener('mouseleave', () =>{
+    console.log('mouse left');
+    soren.pause();
+  });
+
+  const space = document.getElementById('space-cadet');
+  const bass = document.getElementById('bass');
+
+  space.addEventListener('mouseenter', () =>{
+    bass.play();
+  });
+
+  space.addEventListener('mouseleave', () =>{
+    console.log('mouse left');
+    bass.pause();
+  });
+
+  const cologne = document.getElementById('cologne');
+  const extended = document.getElementById('extended-play');
+
+  extended.addEventListener('mouseenter', () =>{
+    cologne.play();
+  });
+
+  extended.addEventListener('mouseleave', () =>{
+    console.log('mouse left');
+    cologne.pause();
+  });
