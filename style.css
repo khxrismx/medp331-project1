@@ -42,12 +42,14 @@ img{
 
 .between-left{
     position: absolute;
-    transform: translate(100%, -80%);
+    transform: translateY( -80%);
+    width: 100%;
 }
 
 .between-right{
     position: absolute;
-    transform: translate(340%, -80%);
+    transform: translate(30%, -80%);
+    width: 100%;
 }
 
 .content{
@@ -71,7 +73,7 @@ img{
 }
 
 .img{
-    width: 500%;
+    width: 100%;
     height: auto;
 }
 
@@ -203,7 +205,7 @@ section .animate{
 }
 
 .color-pink{
-    background: #edafb8;
+    background: #f29eaa;
 }
 
 .color-blue{
